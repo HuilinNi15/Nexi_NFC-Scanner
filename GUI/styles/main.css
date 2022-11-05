@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ms+Madi&family=Water+Brush&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+  height: 100vh;
+  width: 100%;
+  padding: 20vh 15vw;
+}
+
+#container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+#title {
+  font-size: 50px;
+  padding: 50px;
+  width: 50vw;
+  color: #004aad;
+  text-align: center;
+}
+
+
+#junction {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  color: #004aad;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#nexi {
+  color: #004aad;
+  font-size: 20px;
+}
+
+
+#gif {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#image {
+  padding: 50px;
+}
+
+#image img {
+  width: 50vh;
+  height: 50vh;
+  object-fit: cover;
+}
+
+
+#card_information {
+  display: none;
+}
+
+#specifications {
+  height: 100%;
+  width: 80vw;
+  background-color: #e0e0e0;
+  border: 5px solid #c9c9c9;
+  border-radius: 50px;
+  overflow: auto;
+}
