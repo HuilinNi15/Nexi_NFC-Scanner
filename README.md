@@ -31,7 +31,7 @@
 
 
 <!-- Contributors -->
-<h2 id="contributors"> 👥: Contributors</h2>
+<h2 id="contributors"> 👥 Contributors</h2>
 
 * [**Huilin Ni**](https://github.com/HuilinNi15)
 * [**Carlos Pérez**](https://github.com/CPerezRuiz335)
