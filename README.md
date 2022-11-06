@@ -27,11 +27,11 @@
 
 
 <!-- User-friendly GUI -->
-<h2 id="user-friendly-gui"> :computer: User-friendly GUI</h2>
+<h2 id="user-friendly-gui"> 💻 User-friendly GUI</h2>
 
 
 <!-- Contributors -->
-<h2 id="contributors"> :social: Contributors</h2>
+<h2 id="contributors"> 👥: Contributors</h2>
 
 * [**Huilin Ni**](https://github.com/HuilinNi15)
 * [**Carlos Pérez**](https://github.com/CPerezRuiz335)
