@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;700&family=Roboto:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Indie+Flower&family=Ms+Madi&family=Water+Brush&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Roboto';
+  height: 100vh;
+  width: 100%;
+  padding: 20vh 7vw;
+  overflow: hidden;
+}
+
+#container {
+  position: relative;
+  height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+
+
+.title {
+  font-size: 50px;
+  padding: 50px;
+  width: 50vw;
+  color: #004aad;
+  text-align: center;
+  opacity: 1;
+}
+
+.title.hide {
+  animation: hide 2s ease forwards;
+}
+
+@keyframes hide {
+  20%{
+    opacity: 0;
+  }
+  100%{
+    width: 0;
+    opacity: 0;
+  }
+}
+
+
+#junction {
+  position: absolute;
+  top: 0;
+  right: 0;
+  padding: 20px;
+  color: #004aad;
+  font-size: 30px;
+  font-weight: bold;
+}
+
+#nexi {
+  color: #004aad;
+  font-size: 20px;
+}
+
+
+#gif {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-right: 100px;
+}
+
+#image {
+  padding: 50px;
+}
+
+#image img {
+  width: 50vh;
+  height: 50vh;
+  object-fit: cover;
+}
+
+
+#cards {
+  display: none;
+  position: relative;
+  width: 750px;
+  height: 500px;
+}
+
+
+
+#card_information {
+  opacity: 0;
+  width: 0;
+  transform: translateX(1000px);
+  color: #004aad;
+  z-index: 100;
+}
+
+#card_information.show {
+  animation: show_card_info 2s ease forwards;
+}
+
+@keyframes show_card_info {
+  1% {
+    width: 100%;
+  }
+  100% {
+    width: 100%;
+    opacity: 1;
+    transform: translateX(0);
+  }
+}
+
+
+#table {
+  margin-top: 50px;
+  height: 100%;
+  width: 40vw;
+  padding: 30px;
+  border: 5px solid #c9c9c9;
+  border-radius: 50px;
+  overflow: auto;
+  font-size: 17px;
+}
+
+.top {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.code {
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid #004aad;
+  border-radius: 50%;
+}
+
+.code_name {
+  margin-left: 10px;
+  color: #004aad;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+.info {
+  margin-left: 40px;
+  width: fit-content;
+  background-color: white;
+  border: 2px solid #c9c9c9;
+  padding: 10px;
+  border-radius: 20px;
+}
