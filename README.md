@@ -18,7 +18,7 @@
 <h2 id="about-the-project"> :pencil: About The Project</h2>
 
 <p align="justify"> 
-  This project aims to crack credit cards by reading their NFCs (with a NFCs reader) to get the valuable information they have stored in there.
+  With this project we aime to crack credit cards by reading their NFCs (with a NFCs reader) to get the valuable information they have stored in there in. 
 </p>
 
 
